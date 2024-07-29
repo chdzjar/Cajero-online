@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+    <link rel="stylesheet" href="cajero.css">
+    <link rel="shortcut icon" href="imagenes/Devf Bank.png" type="image/x-icon">
+    
+</head>
+<body>
+
+    <aside class="logo">
+
+        <img src="imagenes/Devf Bank.png" alt="logotipo">
+
+        <div class="nombre-banco">
+
+        <h1> Devf Bank</h1>
+        <small> Construyendo sueños financieros</small>
+        
+         </div>
+
+         <div class="cont-saludo"> 
+            <p id="saludo"></p>
+         </div>
+
+        
+    </aside>
+
+<div class="contenedor-principal"> 
+    <div class="selecc-operacion"><h2>Seleccione tipo de operación que desea efectuar</h2>
+
+   
+</div>
+
+<div class="contenedor-opciones">
+    <div class="opciones">
+    <button id="btnConsultar">Consulta de saldo</button><br><br>
+    <button id="btnDepositar">Realizar depósito</button><br><br>
+    
+    <button id="btnRetirar">Realizar retiro</button><br><br>
+
+    <input type="number" id="ingresarmonto" class="ingresar-monto" placeholder="Ingresar monto">
+
+    </div>
+
+    <div class="pantalla"> 
+
+        <p id="saldo"></p>
+        <p id="vacio"></p>
+        <p id="transaccion"></p><br>
+        <p id="nuevoSaldo"></p>
+
+       
+    </div>
+
+    <div class="alcancia">
+        <h3>¿Comó invertir tu dinero? </h3><br>
+        <p>Te explicaremos cómo y en qué invertir tu dinero. Da clic <a href="cajero.html"> aquí.</a>
+</p>
+
+        <img src="imagenes/alcancia.jpg" alt="alcancía">
+       
+    </div>
+</div>
+
+        <div class="cerrar-sesion">
+        <button onclick="cerrarSesion()"> Cerrar sesión</button>
+        </div>
+</div>
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert.js"></script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo img{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+ }
+
+ .logo {
+    display: flex;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.384);
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .nombre-banco {
+    display: flex;
+    padding-top: 35px;
+    margin-right: auto;
+    padding-left: 30px;
+    flex-direction: column;
+   
+    
+ }
+
+.contenedor-principal {
+    background-image: url(imagenes/fondo4.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+}
+
+#saludo {
+   font-size: 20px;
+    color: rgb(8, 56, 78);
+}
+
+.cont-saludo {
+    display: flex;
+    padding-right: 40px;
+    align-items: flex-end;
+    padding-bottom: 15px;
+ 
+}
+.opciones {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    flex-direction: column;
+    width: 300px;
+}
+
+.contenedor-opciones{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-left: 80px;
+} 
+
+.pantalla {
+    height: 250px;
+    width: 400px;
+    border: 6px solid black;
+    padding-left: 180px;
+    padding-top: 15px;
+    background-color: rgba(255, 255, 255, 0.507);
+    color:black;
+   display: flex;
+   flex-direction: column;
+ 
+
+}
+
+.alcancia {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   width: 240px;
+   padding-left: 100px;
+   margin-top: 0;
+}
+
+.alcancia p {
+    padding-bottom: 20px;
+    color: rgb(36, 32, 32);
+    font-size: large;
+}
+
+.alcancia h3 {
+    color: rgb(36, 32, 32);
+}
+
+.alcancia img{
+    width: 230px;
+    height: 150px;
+    padding-bottom: 40px;
+
+}
+
+.alcancia a {
+    color: rgb(36, 32, 32);
+}
+
+.opciones button {
+    height: 60px;
+    border-radius: 7px;
+    background-color: rgb(6, 102, 131);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    width: 200px;
+    border: outset;
+    cursor: pointer;
+
+    
+}
+
+.opciones button:hover{
+    box-shadow: 5px 5px black;
+}
+
+
+
+ .selecc-operacion{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    
+    color: rgb(36, 32, 32);
+    
+}
+
+
+ .cerrar-sesion button{
+  
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    border-style: outset;
+    cursor: pointer;
+ }
+    
+
+ .cerrar-sesion button:hover{
+    box-shadow: 5px 5px black;
+}
+ 
+ .cerrar-sesion {
+    display: flex;
+    justify-content: center;
+   
+    
+ }
+
+ .ingresar-monto {
+    height: 60px;
+    border-radius: 7px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    width: 200px;
+    padding-left: 10px;
+    
+ }
+
+#saldo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#transaccion {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#nuevoSaldo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
